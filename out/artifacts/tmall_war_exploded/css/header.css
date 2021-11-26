@@ -1,0 +1,78 @@
+#site-nav{	
+	height: 26px;
+	background: #f2f2f2;	
+	border-bottom: 1px solid #e5e5e5;
+}
+#site-nav .container{
+	height: 26px;
+	line-height: 26px;
+	position: relative;
+	vertical-align: middle;
+	color: #999;
+}
+#site-nav .container p {
+	margin: 0;			
+	margin-right: 20px;
+	float: left;
+}
+
+#header{
+	position: relative;	
+	height: 122px;
+	background: #fff;
+}
+
+#header .container{
+	height: 122px;
+	line-height: 26px;	
+}	
+
+#header .container .logo{
+	width: 200px;
+	height: 122px;
+	line-height: 122px;
+	float: left;
+}
+
+#header .container .search-box{
+	width: 790px;
+	height: 122px;
+	line-height: 122px;
+	float: left;
+}
+
+.search-box form {
+	position: relative;
+	margin-left: 145px;
+	margin-top: 35px;
+	width: 500px;
+	height: 30px;
+	line-height: 30px;
+	border: solid #c40000;
+	border-width: 3px 0 3px 3px;	
+}
+	
+.search-box .search-input {	
+	background: #fff;
+	height: 30px;
+	padding-left: 5px;	
+}
+.search-box .search-input input{
+	border: 0;
+	outline: 0;
+}
+.search-box button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 90px;
+	border: 0;
+	font-size: 16px;
+	letter-spacing: 4px;
+	cursor: pointer;
+	color: #fff;
+	background-color: #c40000;
+	height: 30px;
+	overflow: hidden;			
+	_right: -1px;
+}

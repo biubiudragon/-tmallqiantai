@@ -1,0 +1,48 @@
+.floor-title {
+    background-color: transparent;
+    border-bottom: 2px solid #000;
+}
+
+.floor-title .w-title {
+    font-size: 20px;
+    font-family: 'microsoft yahei';
+    font-weight: 700;
+    line-height: 28px;
+    float: left;
+    white-space: nowrap;
+}
+
+.floor-title .w-title span {
+    float: left;
+    display: inline-block;    
+    width: 23px;
+    height: 23px;   
+    margin-right: 7px;   
+    font-weight: 700;
+    line-height: 30px;
+    background: url(../images/floor-title-icon-23-23.png) no-repeat;
+}
+
+.floor-title .title {
+    float: left;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    color: #000;
+    font-size: 20px;
+}
+
+ .w-title-more {
+    color: #666;
+    font-weight: normal;
+}
+
+.floor-title .w-title-more {   
+    display: block; 
+    float: right;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+    margin-top: 8px;
+    text-decoration: none;
+}

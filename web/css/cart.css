@@ -1,0 +1,336 @@
+a {
+    color: #3c3c3c;
+    text-decoration: none;
+}
+
+.cart{
+    width: 990px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+.cart .banner{
+    position: relative;
+    height: 33px;    
+}
+
+.cart .banner .title{
+    float: left;
+    font-weight: 700;
+    font-size: 16px;
+    height: 16px;
+    line-height: 1.1;
+    font-family: 'Hiragino Sans GB','Lantinghei SC','Microsoft Yahei',SimSun;
+    text-align: center;
+    padding: 0 0 15px 0;
+    cursor: pointer;
+    margin-left: -1px;
+}
+
+.cart-sum {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 25px;
+    line-height: 25px;
+}
+
+.cart-sum .price {
+    color: #404040;
+    font-family: Arial,Verdana;
+    font-weight: 700;
+    margin-right: 5px;
+    color: #f40;
+}
+
+.cart-sum .submit-btn {
+    display: inline-block;
+    width: 55px;
+    color: #fff;
+    background: #f40;    
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cart .banner .line {
+    clear: both;
+    background: #e6e6e6;
+    height: 2px;    
+}
+
+.cart-table-th {
+    overflow: hidden;
+    height: 72px;
+    line-height: 72px;
+    color: #3c3c3c;
+}
+
+.cart-table-th .wp {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.th, .td  {
+    float: left;
+}
+
+.th-chk, .td-chk {
+    font-size: 12px;
+    text-align: left;
+    position: relative;
+    width: 45px;
+    height: 50px;
+}
+
+.th-item, .td-item {
+    width: 302px;
+}
+
+.cart-table-th .th-item .td-inner {
+    padding-left: 91px;
+}
+
+.td-inner {
+    padding: 0 0 0 10px;
+}
+
+.td .td-inner{
+    padding-top: 20px;
+}
+
+.th-info, .td-info {
+    width: 172px;
+    padding-right: 20px;
+}
+
+.th-price, .td-price {
+    width: 120px;
+}
+
+.th-amount, .td-amount {
+    width: 120px;
+}
+
+.th-sum, .td-sum {
+    width: 105px;
+}
+
+.th-op, .td-op {
+    width: 84px;
+    padding: 0 0 0 15px;
+}
+
+.shop {
+    position: relative;  
+    margin-bottom: 16px;  
+    background: #fff;
+    overflow: hidden;
+}
+
+.shop .cart-checkbox {
+    position: relative;
+    display: inline-block;
+    margin-top: -2px;
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.cart-checkbox input{
+    vertical-align: middle;
+}
+
+.item-list{
+    margin-bottom: 25px;
+}
+
+.item-list div.item{    
+    border-bottom: 1px solid #e7e7e7; 
+    background: #fcfcfc;   
+}
+
+.item-list div.item-selected{
+    background: #fff8e1;
+}
+
+.item-list div.item ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.item-pic {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #eee;
+    float: left;
+    overflow: hidden;
+}
+
+.td-item .item-info {
+    margin: -3px 0 42px 91px;
+    padding-right: 25px;
+}
+
+.item-info .item-title {
+    font-size: 12px;
+    display: block;
+    max-height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.td-item .item-icon-list{
+    margin-left: 91px;
+}
+
+.td-info .item-props{
+    padding: 16px 0;
+}
+
+.sku-line {
+    margin: 0 5px 0 15px;
+    color: #9c9c9c;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.td-price .item-price {
+    padding: 8px 0 0 10px;
+    line-height: 1;
+    width: 74px;
+    color: #9c9c9c;
+}
+
+.td-price .price-line {
+    padding: 0 0 4px 0;
+}
+
+.td-price .price-original {
+    color: #9c9c9c;
+    text-decoration: line-through;
+}
+
+.td-price .price-now {
+    color: #3c3c3c;
+    font-weight: 700;
+}
+
+.td-amount .text-amount {
+    width: 39px;
+    height: 15px;
+    line-height: 15px;
+    border: 1px solid #aaa;
+    color: #343434;
+    text-align: center;
+    padding: 4px 0;
+    background-color: #fff;
+    background-position: -75px -375px;
+    position: absolute;   
+}
+
+.td-sum .number{
+    color: #f40;
+    font-weight: 700;
+}
+
+.fixed-bottom {
+    bottom: -1px;
+    z-index: 9999;
+}
+
+.float-bar{
+    width: 990px;
+    margin: 0 auto;
+    background: #e5e5e5;
+}
+
+.float-bar-wrapper {
+    height: 50px;
+    overflow: hidden;    
+}
+
+.float-bar .select-all {
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5px;
+}
+
+.float-bar .operations {
+    float: left;
+    line-height: 50px;
+    height: 50px;
+}
+
+.float-bar-right {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 4;
+    padding-left: 20px;
+}
+
+.float-bar .amount-sum, .float-bar .price-sum {
+    float: left;
+    height: 48px;
+    color: #3c3c3c;
+}
+
+.float-bar .txt {
+    line-height: 48px;
+}
+span.txt {
+    float: left;
+}
+
+.float-bar .amount-sum em{
+    line-height: 50px;
+    padding: 0 5px;
+}
+.float-bar .amount-sum em, .float-bar .price-sum .price em {
+    color: #f40;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: tohoma,arial;
+}
+
+.float-bar .price-sum .price {
+    color: #f40;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    font-family: Arial;
+    vertical-align: middle;
+}
+
+.float-bar .btn-area {
+    float: left;
+}
+
+.float-bar .submit-btn:link {
+    color: #fff;
+}
+.float-bar .submit-btn {
+    display: inline-block;
+    margin-left: 5px;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    background: #f40;
+    text-align: center;
+    font-family: 'Lantinghei SC','Microsoft Yahei';
+    font-size: 20px;    
+    border-radius: 2px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+

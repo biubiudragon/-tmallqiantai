@@ -1,0 +1,183 @@
+.product-iWrap:hover {
+	  border:solid  red  2px;
+	  overflow: hidden;
+}
+.filter{
+    margin: 0;
+    padding: 5px;
+    position: relative;  
+    color: #806f66;
+}
+
+.sort {
+    position: relative;
+    display: inline-block;
+    margin-left: -1px;
+    overflow: hidden;
+    padding: 0 15px 0 5px;   
+    height: 22px;
+    line-height: 20px; 
+    border: 1px solid #ccc; 
+}
+
+.sort.current{
+	color: #B10000;
+    background: #F1EDEC;
+}
+
+.sort .arrow-up{
+	margin: 0;
+}
+
+.sort .arrow-down{
+	margin: 0;
+}
+
+.view-list{
+	margin-top: 10px;
+}
+
+.view-list .product {
+	position: relative;
+    width: 220px;
+	padding: 0;
+    margin: 0;
+    margin-right: 18px;	
+	margin-bottom: 20px;
+    float: left;
+    line-height: 1.5;
+    overflow: visible;
+    z-index: 1;
+}
+
+.view-list .product.item {
+    height: 390px;
+}
+
+.product-iWrap {   
+	position: absolute;
+	min-height: 98%;    
+    width: 210px;
+    background-color: #fff;
+    margin: 0;
+    padding: 4px;
+    padding-bottom: 0;   
+    border: 1px solid #f5f5f5;
+    border-radius: 3px;
+}
+
+.productImg-wrap {      
+    height: 210px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.productThumb {
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.proThumb-img {    
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-right: 3px;
+    padding: 1px;
+    border: 1px solid #CCC;
+}
+
+.productPrice {    
+    font-family: arial,verdana,sans-serif!important;
+    color: #C00;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 5px;   
+}
+
+.productPrice em {
+    float: left;
+    font-family: arial;
+    font-weight: 400;
+    font-size: 20px;   
+}
+
+.productTitle {    
+    color: #666;
+    height: 12px;
+    line-height: 12px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.productTitle a .H {
+    color: #C60;
+}
+
+.productShop {    
+    height: 12px;
+    line-height: 12px;     
+    color: #999;
+    white-space: nowrap;
+    overflow: visible;
+}
+
+.productShop .productShop-name {
+    float: left;
+    line-height: 20px;
+    height: 20px;
+    max-width: 144px;
+    color: #999;
+    text-decoration: underline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;    
+}
+
+.productStatus {    
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;    
+    border: 0;
+    border-top: 1px solid #eee;
+    color: #999;
+}
+
+.productStatus em {
+    color: #b57c5b;
+}
+
+.productStatus a {
+    color: #38b;
+}
+
+.ui-page {
+    height: 60px;
+    margin: 10px 0 20px;
+    color: #999;
+    font-size: 14px;
+    font-family: Helvetica,sans-serif;
+    text-align: center;
+}
+
+.ui-page-wrap {
+    display: inline-block;
+    zoom: 1;
+}
+
+.ui-page a {
+    background-color: #fff;
+    color: #2953A6;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ui-page form{
+    display: inline;
+}
+
+
+

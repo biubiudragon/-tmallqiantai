@@ -1,0 +1,31 @@
+body{
+	font-size: 12px;
+}
+
+a{
+	color: #999;
+}
+
+a:hover{
+	color: #f00;
+}
+.hidden{
+    display: none !important;
+}
+
+.disabled{
+	color: #ccc;
+}
+
+.clearfix:after{
+	content:".";display:block;height:0;clear:both;visibility:hidden
+}
+
+#adv-banner,#site-nav,#header,#content,#footer{
+	min-width: 990px;
+	width: auto;
+}
+.container {
+	width: 1190px;
+	margin: auto;
+}
